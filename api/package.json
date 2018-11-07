@@ -1,0 +1,19 @@
+{
+  "name": "Goweek",
+  "version": "1.0.0",
+  "description": "Semana Stack dos sonhos",
+  "main": "index.js",
+  "repository": "https://github.com/alephjunio/goweek-stack-dream",
+  "author": "Aleph Junio",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10",
+    "nodemon": "^1.18.6",
+    "socket.io": "^2.1.1"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
